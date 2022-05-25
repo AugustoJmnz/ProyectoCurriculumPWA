@@ -6,7 +6,7 @@
     "theme_color": "#000000",
     "orientation": "portrait",
     "display": "standalone",
-    "start_url": "https://augustojmnz.github.io/ProyectoCurriculumPWA/Curriculum.html",
+    "start_url": "https://augustojmnz.github.io/ProyectoCurriculumPWA/index.html",
     "lang": "es-MX",
     "icons": [
         {
