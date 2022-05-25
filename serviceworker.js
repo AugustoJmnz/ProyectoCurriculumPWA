@@ -1,10 +1,11 @@
 ;
 const CACHE_NAME = 'v1_cache_curriculum',
 urlsToCache = [
-    './',
-    './Curriculum.html',
-    './images/icons',
-    './script.js',
+    'https://AugustoJmnz.github.io/ProyectoCurriculumPWA/',
+    'https://AugustoJmnz.github.io/ProyectoCurriculumPWA/Curriculum.html',
+    'https://AugustoJmnz.github.io/ProyectoCurriculumPWA/images/Fotografía.jpg',
+    'https://AugustoJmnz.github.io/ProyectoCurriculumPWA/script.js',
+    'https://AugustoJmnz.github.io/ProyectoCurriculumPWA/fetch.js',
 ]
 
 self.addEventListener('install', e =>{
