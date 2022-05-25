@@ -2,7 +2,7 @@
 const CACHE_NAME = 'v1_cache_curriculum',
 urlsToCache = [
     'https://AugustoJmnz.github.io/ProyectoCurriculumPWA/',
-    'https://AugustoJmnz.github.io/ProyectoCurriculumPWA/Curriculum.html',
+    'https://AugustoJmnz.github.io/ProyectoCurriculumPWA/index.html',
     'https://AugustoJmnz.github.io/ProyectoCurriculumPWA/images/Fotografía.jpg',
     'https://AugustoJmnz.github.io/ProyectoCurriculumPWA/script.js',
     'https://AugustoJmnz.github.io/ProyectoCurriculumPWA/fetch.js',
