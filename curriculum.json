@@ -1,0 +1,48 @@
+[
+	{
+		"Name": "Jorge Augusto Jimenez Chimal",
+		"About": "I’m a student at the Universidad Tecnológica de la Riviera Maya. I study the fifth quarter of my career in IT. I have experience using computers with Windows and Linux OS, I’ve liked computers since I was a child and for the future, I hope to have my own business. I would like to develop my skills and knowledge that I have in technology and in that way learn more."
+	},
+	{
+		"Dateofbirth": "30/01/2002",
+		"Nationality": "Mexican",
+		"email": "jorgejmnz30@gmail.com",
+		"Telephonenumber": "984 268 6264",
+		"Address": "Flamboyan Street Mz1 Lt1, Puerto Aventuras"
+	},
+	{
+		"A2020Inthepresent": "Universidad Tecnológica de la Riviera Maya, Playa Del Carmen, Mexico. Career: Engineering in information and communication technologies.",
+		"B20172020b": "Colegio de Estudios Científicos y Tecnológicos del Estado de Quintana Roo High School, Playa Del Carmen, Mexico.",
+		"C20142017c": "José Antonio Tzuc Esparza High School, Puerto Aventuras, Quintana Roo, Mexico.",
+		"D20082014d": "Miguel Ortega Navarrete Elementary School, Puerto Aventuras, Quintana Roo, Mexico."
+	},
+	{
+		"Communication": "Communication",
+		"Adaptability": "Adaptability",
+		"Teamwork": "Teamwork",
+		"Usingtechnologies": "Using technologies",
+		"Criticalthinking": "Critical thinking",
+		"Identification": "Identification of opportunities and resolution of problems",
+		"Office": "Domain of office applications Word, Excel, PowerPoint, Publisher",
+		"Development": "Development of ideas and ability to innovate"
+	},
+	{
+		"Reading": "Reading",
+		"ContactSports": "Contact Sports",
+		"Training": "Training",
+		"ScienceTechnology": "Science and technology",
+		"VideoGames": "Video games"
+	},
+	{
+		"Spanish": "Native",
+		"English": "Level B1"
+	},
+	{
+		"primero": "INSTITUTO DE LA JUVENTUD SOLIDARIDAD, Playa Del Carmen, Quintana Roo. (2019)",
+		"segundo": "Industria de la madera HR S.A. de C.V., Puerto Aventuras, Quintana Roo. (2020)"
+	},
+	{
+		"pri": "C. Antulo Jonatan Alvarez Castañeda. INSTITUTO DE LA JUVENTUD SOLIDARIDAD. Av. 20 North/ 8 and 10 Street North, Col. Centro, Solidaridad, Quintana Roo. 77710",
+		"seg": "Julio Cesar Aguilar de la Cruz. Industria de la madera HR S.A. de C.V. Alamo Street Mz13 Lt5 Puerto Aventuras, Solidaridad, Quintana Roo. 77725"
+	}
+]
