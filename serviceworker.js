@@ -5,7 +5,7 @@ urlsToCache = [
     'https://augustojmnz.github.io/ProyectoCurriculumPWA/index.html',
     'https://augustojmnz.github.io/ProyectoCurriculumPWA/images/Fotografía.jpg',
     'https://augustojmnz.github.io/ProyectoCurriculumPWA/script.js',
-    'https://augustojmnz.github.io/ProyectoCurriculumPWA/fetch.js',
+    'https://augustojmnz.github.io/ProyectoCurriculumPWA/fetch.js'
 ]
 
 self.addEventListener('install', e =>{
