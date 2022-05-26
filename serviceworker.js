@@ -8,9 +8,9 @@ urlsToCache = [
     'https://augustojmnz.github.io/ProyectoCurriculumPWA/fetch.js'
 ]
 
-self.addEventListener('install', e =>{
-    e.waitUntil(
-        caches.open(CACHE_NAME)
+self.addEventListener('install', event =>{
+    event.waitUntil(
+        caches.open(PRECACHE)
             .then(cache =>{
                 return cache.addAll(urlsToCache)
                     .then(() => self.skipWaiting())
@@ -18,9 +18,9 @@ self.addEventListener('install', e =>{
             .catch(error => console.log(error))
     )
 })
-self.addEventListener('activate', e =>{
-    const cacheWhitelist = [CACHE_NAME]
-    e.waitUntil(
+self.addEventListener('activate', event =>{
+    const cacheWhitelist = [CPREACHE]
+    event.waitUntil(
         caches.keys()
             .then(cachesNames =>{
                 cachesNames.map(cacheName =>{
@@ -32,15 +32,15 @@ self.addEventListener('activate', e =>{
             .then(() => self.clients.claim())
     )
 })
-self.addEventListener('fetch', e =>{
-    e.respondWith(
-        caches.match(e.request)
+self.addEventListener('fetch', event =>{
+    event.respondWith(
+        caches.match(event.request)
         .then(res => {
             if(res){
                 return res
             }
             
-            return fetch(e.request)
+            return fetch(event.request)
         })
     )
 })
