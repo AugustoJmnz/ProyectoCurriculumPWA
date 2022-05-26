@@ -1,4 +1,9 @@
-;
+if('serviceWorker' in navigator){
+    navigator.serviceWorker.register('https://augustojmnz.github.io/ProyectoCurriculumPWA/serviceworker.js')
+    .then(reg => console.log('Registro hecho', reg))
+    .catch(error => console.warn(error))
+}
+
 const PRECACHE = 'cache_curriculum',
 Resources = [
     'https://augustojmnz.github.io/ProyectoCurriculumPWA/',
