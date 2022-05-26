@@ -1,6 +1,6 @@
 ;
-const CACHE_NAME = 'v1_cache_curriculum',
-urlsToCache = [
+const PRECACHE = 'cache_curriculum',
+Resources = [
     'https://augustojmnz.github.io/ProyectoCurriculumPWA/',
     'https://augustojmnz.github.io/ProyectoCurriculumPWA/index.html',
     'https://augustojmnz.github.io/ProyectoCurriculumPWA/images/Fotografía.jpg',
@@ -12,14 +12,14 @@ self.addEventListener('install', event =>{
     event.waitUntil(
         caches.open(PRECACHE)
             .then(cache =>{
-                return cache.addAll(urlsToCache)
+                return cache.addAll(Resources)
                     .then(() => self.skipWaiting())
             })
             .catch(error => console.log(error))
     )
 })
 self.addEventListener('activate', event =>{
-    const cacheWhitelist = [CPREACHE]
+    const cacheWhitelist = [PRECACHE]
     event.waitUntil(
         caches.keys()
             .then(cachesNames =>{
